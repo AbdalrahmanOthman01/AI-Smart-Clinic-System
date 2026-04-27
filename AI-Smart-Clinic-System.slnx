@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="R:/repos/AI-Smart-Clinic-System/AI-Smart-Clinic-System.Api/AI-Smart-Clinic-System.Api.csproj" />
+  <Project Path="R:/repos/AI-Smart-Clinic-System/AI-Smart-Clinic-System.Application/AI-Smart-Clinic-System.Application.csproj" />
+  <Project Path="R:/repos/AI-Smart-Clinic-System/AI-Smart-Clinic-System.Domain/AI-Smart-Clinic-System.Domain.csproj" />
+  <Project Path="R:/repos/AI-Smart-Clinic-System/AI-Smart-Clinic-System.Infrastructure/AI-Smart-Clinic-System.Infrastructure.csproj" />
+</Solution>

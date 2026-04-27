@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <RootNamespace>AI_Smart_Clinic_System.Application</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AI-Smart-Clinic-System.Domain\AI-Smart-Clinic-System.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Behaviors\" />
+    <Folder Include="Constants\" />
+    <Folder Include="Dtos\" />
+    <Folder Include="Extenstions\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="IRepositories\" />
+    <Folder Include="Options\" />
+    <Folder Include="Result\" />
+  </ItemGroup>
+
+</Project>
