@@ -15,11 +15,16 @@
     <Folder Include="Behaviors\" />
     <Folder Include="Constants\" />
     <Folder Include="Dtos\" />
-    <Folder Include="Extenstions\" />
     <Folder Include="Interfaces\" />
     <Folder Include="IRepositories\" />
     <Folder Include="Options\" />
     <Folder Include="Result\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="12.1.1" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="12.1.1" />
+    <PackageReference Include="MediatR" Version="14.1.0" />
   </ItemGroup>
 
 </Project>
