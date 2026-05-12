@@ -1,3 +1,4 @@
+using AI_Smart_Clinic_System.Application.Behaviors;
 using Microsoft.Extensions.DependencyInjection;
 using FluentValidation;
 using MediatR;

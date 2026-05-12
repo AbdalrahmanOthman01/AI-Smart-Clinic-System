@@ -10,6 +10,7 @@
   <ItemGroup>
     <Folder Include="Entities\" />
     <Folder Include="Enums\" />
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
   </ItemGroup>
 
 </Project>

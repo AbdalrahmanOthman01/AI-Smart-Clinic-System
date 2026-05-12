@@ -1,6 +1,8 @@
 using FluentValidation;
 using MediatR;
 
+namespace AI_Smart_Clinic_System.Application.Behaviors
+{
 public class ValidationBehavior<TRequest, TResponse>(IEnumerable<IValidator<TRequest>> validators)
     : IPipelineBehavior<TRequest, TResponse>
     where TRequest : IRequest<TResponse>
@@ -47,4 +49,5 @@ public class ValidationBehavior<TRequest, TResponse>(IEnumerable<IValidator<TReq
         throw new InvalidOperationException(
             $"The return type {typeof(TResult).Name} is not a valid Result type.");
     }
+}
 }
